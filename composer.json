@@ -1,0 +1,18 @@
+{
+    "name": "aspid/mytask",
+    "description": "part3 task4.6",
+    "authors": [
+        {
+            "name": "Vladimir Iskov",
+            "email": "vladimiriks4@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.3"
+    },
+    "autoload": {
+	"psr-4": {
+	    "App\\": ["src"]
+	}
+    }
+}
